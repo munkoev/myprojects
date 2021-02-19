@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+      <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="cell1"></div>
+        <div class="cell2"><br><h1>Привет!</h1><br><p>Здесь собраны ссылки на мои учебные проекты:</p></div>
+        <div class="cell3"></div>
+        <div class="cell4"></div>
+        <div class="cell5"></div>
+        <div class="cell6"></div>
+        <div class="cell7">
+            <div class="tabset">
+              <!-- Tab 1 -->
+              <input type="radio" name="tabset" id="tab1" aria-controls="cellsim" checked>
+              <label for="tab1">cellsim</label>
+              <!-- Tab 2 -->
+              <input type="radio" name="tabset" id="tab2" aria-controls="coviddb">
+              <label for="tab2">covid db</label>
+                <!-- Tab 3 -->
+              <input type="radio" name="tabset" id="tab3" aria-controls="healersim">
+              <label for="tab3">healersim</label>
+
+
+              <div class="tab-panels">
+                <section id="cellsim" class="tab-panel">
+                    <div style="float: left;">
+                        <a href="https://github.com/munkoev/cell_sim">Репозиторий</a><br>
+                        <br>
+                        Собственная реализация игры Game of Life<br>
+                        1) Использованы векторные операции для уменьшения <br>
+                        количества циклов при расчете условия живой / мертвый. <br>
+                        2) Для визуализации использован scatter plot<br>
+                        библиотеки Matplotlib.pyplot<br>
+                        <br>
+                        Демонстрирует базовые знания python, pandas, matplotlib
+                    </div>
+                    <div style="float: left; vertical-align: middle; padding:10px;">
+                        <img src="static/hs6.gif"/>
+                    </div>
+                </section>
+                <section id="coviddb" class="tab-panel">
+                    <div style="float: left;">
+                        <a href="https://mevc11211.pythonanywhere.com/">Веб-апп</a><br>
+                        <br>
+                        Развернутый на pythonanywhere сайт, позволяющий:<br>
+                        1) Загружать акутальный csv файл с данными по ковид-19<br>
+                        с github-репозитория университета Джона Хопкинса<br>
+                        2) Обрабатывать данные и хранить их в БД MySQL<br>
+                        3) Отображать данные по нажатию на <b>get_data_head</b><br>
+                        <br>
+                        Демонстрирует базовые знания flask, mysql, python
+                    </div>
+                    <div style="float: left; vertical-align: middle; padding:10px;">
+                        <img src="static/hs5.gif"/>
+                    </div>
+                </section>
+                  <section id="healersim" class="tab-panel">
+                    <div style="float: left;">
+                        <a href="https://munkoev.github.io/healersim/">Игра</a> | <a href="https://github.com/munkoev/healersim/tree/gh-pages">Репозиторий</a><br>
+                        <br>
+                        Игра, имитирующая роль лекаря в ммо-играх.<br>
+                        Наводите мышкой на союзника (зеленый бар)<br>и нажатием клавиш "1", "2" или "3" исцеляете его.<br>
+                        <br>
+                        Демонстрирует базовые знания ООП, js, html, css
+                    </div>
+                    <div style="float: left; vertical-align: middle; padding:10px;">
+                        <img src="static/hs3.gif"/>
+                    </div>
+                </section>
+              </div>
+            </div>
+        </div>
+<!--        <div class="cell8"></div>-->
+<!--        <div class="cell9"></div>-->
+        <div class="cell10"></div>
+        <div class="cell11"></div>
+        <div class="cell12"></div>
+        <div class="cell13"></div>
+        <div class="cell14"></div>
+        <div class="cell15"></div>
+    </div>
+</body>
+</html>
+
+
+
